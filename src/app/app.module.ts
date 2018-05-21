@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgxStripeModule } from 'ngx-stripe';
 
 import { AppComponent } from './app.component';
@@ -15,6 +15,7 @@ import { PaymentComponent } from './payment/payment.component';
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     NgxStripeModule.forRoot(environment.stripe.pubKey)
   ],
   providers: [],

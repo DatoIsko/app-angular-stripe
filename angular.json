@@ -50,7 +50,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "app-angular-stripe:build"
+            "browserTarget": "app-angular-stripe:build",
+            "port": 3000
           },
           "configurations": {
             "production": {

@@ -1,1 +1,1 @@
-export const stripePubKey = process.env.STRIPE_PUBLIC_KEY;
+export const stripePubKey = 'pk_test_loDVKd8lUh1qaosrxVD8JcFx';
